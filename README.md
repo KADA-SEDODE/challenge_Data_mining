@@ -13,7 +13,6 @@ La désaffection des clients (churn) est un problème stratégique pour le secte
 
 3. Structure du projet
    
-.codegpt/ : Dossier généré pour des configurations spécifiques à l'éditeur.
 .venv/ : Environnement virtuel Python pour les dépendances du projet (non suivi par Git grâce à .gitignore).
 catboost_info/ : Dossier contenant les logs générés par CatBoost.
 data/ :
@@ -28,8 +27,6 @@ requirements.txt : Liste des dépendances Python nécessaires pour reproduire le
 Analyse exploratoire des données (EDA) pour comprendre les facteurs clés du churn.
 Implémentation et optimisation des modèles de machine learning, dont :
 CatBoostClassifier
-XGBoostClassifier
-LightGBMClassifier
 Utilisation d'Optuna pour l'optimisation des hyperparamètres.
 Évaluation des modèles avec des métriques comme le ROC AUC et la matrice de confusion.
 
