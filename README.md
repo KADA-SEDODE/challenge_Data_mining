@@ -69,17 +69,3 @@ jupyter notebook catboost_final.ipynb
 ✨ Notes
 
 Ce projet a été développé dans un cadre académique, avec une approche pratique orientée compétition et optimisation.
-
-Pour toute question ou contribution, n’hésitez pas à ouvrir une issue ou un pull request.
-
-
----
-
-## ✅ **Améliorations apportées :**
-- Meilleure mise en page avec des emojis et titres hiérarchisés
-- Explications plus **fluides et pro**
-- Instructions terminal **mieux mises en valeur**
-- Tableau pour la structure (au lieu de texte brut)
-- Ajout d’une section "Notes" pour la finition
-
----
