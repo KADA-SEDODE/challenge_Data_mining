@@ -1,52 +1,85 @@
-Prévision de la Désaffection Bancaire
+# 🏦 Prévision de la Désaffection Bancaire (Churn)
 
-Ce projet a été réalisé dans le cadre d'un challenge Kaggle lors du cours de Data Mining en Master 2 Modélisation Statistique, Économique et Financière (M2 MOSEF) à l'université Paris 1 panthéon Sorbonne. 
-L'objectif était de construire un modèle performant pour prédire le taux de désabonnement bancaire (churn). Notre équipe a terminé 4ème lors de ce challenge.
+## 📌 Présentation
 
-Ce projet a été réalisé par : effoliguift@outlook.com   , bethuelasse9@gmail.com , kadasedodemarv@gmail.com 
+Ce projet a été réalisé dans le cadre d’un **challenge Kaggle** du cours de **Data Mining** en **Master 2 Modélisation Statistique, Économique et Financière (M2 MOSEF)** à l’Université **Paris 1 Panthéon-Sorbonne**.  
 
+🎯 **Objectif** : Construire un modèle performant pour prédire le **désabonnement bancaire (churn)**.  
+🏅 Notre équipe a terminé **4ᵉ sur l’ensemble des participants.**
 
-1. Contexte
-   
-La désaffection des clients (churn) est un problème stratégique pour le secteur bancaire.
- Ce projet vise à identifier les clients à risque et à proposer des solutions préventives en utilisant des techniques avancées de machine learning.
+👥 **Projet réalisé par** :
+- kadasedodemarv@gmail.com
+- effoliguift@outlook.com
+- bethuelasse9@gmail.com
 
-3. Structure du projet
-   
-.venv/ : Environnement virtuel Python pour les dépendances du projet (non suivi par Git grâce à .gitignore).
-catboost_info/ : Dossier contenant les logs générés par CatBoost.
-data/ :
-train.csv : Fichier de données d'entraînement.
-test.csv : Fichier de données de test.
-.gitignore : Exclut les fichiers et dossiers sensibles du suivi Git.
-catboost_final.ipynb : Notebook principal contenant l'analyse exploratoire, la modélisation et l'évaluation.
-requirements.txt : Liste des dépendances Python nécessaires pour reproduire le projet.
+---
 
-4. Fonctionnalités principales
+## 📝 Contexte
 
-Analyse exploratoire des données (EDA) pour comprendre les facteurs clés du churn.
-Implémentation et optimisation des modèles de machine learning, dont :
-CatBoostClassifier
-Utilisation d'Optuna pour l'optimisation des hyperparamètres.
-Évaluation des modèles avec des métriques comme le ROC AUC et la matrice de confusion.
+La **désaffection des clients (churn)** est un enjeu stratégique majeur pour les banques, impactant directement la rentabilité et la fidélité des clients.  
 
+Ce projet vise à :
+- **Identifier les clients à risque de churn**
+- **Proposer des solutions préventives basées sur les prédictions du modèle**
+- Utiliser des **techniques avancées de machine learning** pour améliorer la précision de prédiction.
 
-5. Comment utiliser ce projet
+---
 
+## 📂 Structure du projet
+
+| Dossier/Fichier           | Description                                                        |
+|--------------------------|--------------------------------------------------------------------|
+| `.venv/`                  | Environnement virtuel Python (non suivi par Git grâce à `.gitignore`) |
+| `catboost_info/`          | Logs générés par CatBoost                                          |
+| `data/train.csv`          | Données d’entraînement                                             |
+| `data/test.csv`           | Données de test                                                    |
+| `.gitignore`              | Exclut les fichiers sensibles ou inutiles                          |
+| `catboost_final.ipynb`    | Notebook principal (EDA, modélisation, évaluation)                 |
+| `requirements.txt`        | Liste des dépendances Python du projet                             |
+
+---
+
+## 🚀 Fonctionnalités principales
+
+✅ **Analyse exploratoire des données (EDA)** pour identifier les facteurs clés du churn  
+✅ **Modélisation** avec plusieurs algorithmes de machine learning, dont **CatBoostClassifier**  
+✅ **Optimisation des hyperparamètres** avec **Optuna**  
+✅ **Évaluation des modèles** avec des métriques comme :
+- **ROC AUC**
+- **Matrice de confusion**
+
+---
+
+## 🛠️ Guide d’utilisation
+
+1️⃣ **Clonez le projet :**
+
+```bash
 git clone https://github.com/KADA-SEDODE/challenge_Data_mining.git
 cd challenge_Data_mining
-
-Créez un environnement virtuel et activez-le
+2️⃣ Créez et activez un environnement virtuel :
 python -m venv .venv
 source .venv/bin/activate      # Sur Linux/Mac
 .venv\Scripts\activate         # Sur Windows
-
-Installez les dépendances :
+3️⃣ Installez les dépendances :
 pip install -r requirements.txt
-
-
-Lancez le notebook principal 
+4️⃣ Lancez le notebook principal :
 jupyter notebook catboost_final.ipynb
 
+✨ Notes
+
+Ce projet a été développé dans un cadre académique, avec une approche pratique orientée compétition et optimisation.
+
+Pour toute question ou contribution, n’hésitez pas à ouvrir une issue ou un pull request.
 
 
+---
+
+## ✅ **Améliorations apportées :**
+- Meilleure mise en page avec des emojis et titres hiérarchisés
+- Explications plus **fluides et pro**
+- Instructions terminal **mieux mises en valeur**
+- Tableau pour la structure (au lieu de texte brut)
+- Ajout d’une section "Notes" pour la finition
+
+---
